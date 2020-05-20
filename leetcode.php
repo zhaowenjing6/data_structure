@@ -5,7 +5,6 @@
 解释: 因为无重复字符的最长子串是 "abc"，所以其长度为 3。
 
 function lengthOfLongestSubstring($s) {
-
     $subStr  = '';
     $len = 0;
     for ($i = 0;$i < strlen($s);$i ++) {
